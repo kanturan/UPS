@@ -1,0 +1,63 @@
+/* GENERRAL ---------------------------------------*/
+
+body{
+
+	margin: 0px;
+	font: small Calibri;
+	cursor: default;
+
+}
+
+table{
+	border-collapse: collapse;
+	border: none;
+}
+
+td{
+	text-align: center;
+	padding: 15px 15px 15px 7px;
+	max-width: 400px;
+}
+
+th{
+	text-align: center;
+	padding: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+input{
+	width: 150px;
+}
+
+button{
+	width: 100px;
+	height: 25px;
+	background-color: #004f6b;
+	color: #afbf25;
+	font-size: 12px;
+	border: 2px outset #afbf25;
+}
+
+/* ID ---------------------------------------------*/
+
+#alpha{
+	position: relative;
+	border: 0px;
+	width: 688px;
+	height: 43px;
+	top: 0px;
+	left: -283px;
+}
+
+#btns{
+	width: 220px;
+}
+
+/* CLASS ------------------------------------------*/
+
+tr.login{
+	background-color: white;
+}

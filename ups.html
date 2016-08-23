@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/> 
+		<title>WLGITSSCATS</title>
+		<link rel="icon" href="img/nzta-logo.png" type="img/png"/>
+		<link href="css/ups.css" rel="stylesheet" type="text/css"/>
+		<!-- <script type="text/javascript" src="js/ups.js"></script> -->
+	</head>
+	<body onload="startRefresh()">
+		<div id="content">
+			<div id="header">
+				<img src="img/nzta.jpg" alt="Image not found">
+			</div>
+			<table>
+				<tbody>
+					<tr>
+						<th>Status</th>
+						<th>Site Number</th>
+						<th>Site</th>
+						<th>UPS Type</th>
+					</tr>
+					<tr>
+						<td>
+							<iframe id="alpha" alt="Site is OFFLINE" src="http://10.93.8.89:81/#mode_state" scrolling="no" frameborder="no"></iframe>
+						</td>
+						<td><div id="showUPS6502"></div>6502</td>
+						<td>Whitford Brown</td>
+						<td> <a href="http://10.93.8.89:81/#battery_inverter_page">Alpha</a> </td>
+					</tr>
+					<tr>
+						<td>
+							<iframe id="alpha" src="http://10.93.8.97:81/#mode_state" scrolling="no" frameborder="no"></iframe>
+						</td>
+						<td>6507</td>
+						<td>Melling</td>
+						<td> <a href="http://10.93.8.97:81/#battery_inverter_page">Alpha</a> </td>
+					</tr>
+					<tr>
+						<td>
+							<iframe id="alpha" src="http://10.93.8.25:81/#mode_state" scrolling="no" frameborder="no"></iframe>
+						</td>
+						<td>6509</td>
+						<td>KGB</td>
+						<td> <a href="http://10.93.8.25:81/#battery_inverter_page">Alpha</a> </td>
+					</tr>
+					<!-- <tr>
+						<td>
+							<iframe id="eaton" src="URL" scrolling="no" frameborder="no"></iframe>
+						</td>
+						<td>6512</td>
+						<td>Totara Park</td>
+						<td> <a href="http://10.93.8.49:81/">Eaton</a> </td>
+					</tr>
+					<tr>
+						<td>
+							<iframe id="eaton" src="URL" scrolling="no" frameborder="no"></iframe>
+						</td>
+						<td>6513</td>
+						<td>Haywards</td>
+						<td> <a href="http://10.93.8.33:81/">Eaton</a> </td>
+					</tr> -->
+				</tbody>
+			</table>
+			<table>
+				<tbody>
+					<tr>
+						<td id="btns">
+							<!-- <button>Add Site</button>-->
+						</td>
+						<td id="btns">
+							<form id="login" align="center-left" action="UPS list.html" method="post" accept-charset="utf-8">
+								<button type="submit">Logout</button>
+							</form>
+						</td>
+						<td id="btns">
+							<!-- <button>Remove Site</button> -->
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>
